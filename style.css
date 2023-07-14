@@ -1,0 +1,108 @@
+#header{
+   background-image: url("./images/header.png");
+   background-size: cover;
+}
+#aboutme{
+    background-color: white;
+}
+.headerflex{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#header .headerflex h1{
+    font-family: "Dancing Script", cursive;;
+    font-size: 150px;
+}
+
+#header .headerflex p{
+    color: white;
+    font-size: 30px;
+    font-family: "Bilbo Swash Caps", cursive;
+    font-style:oblique;
+}
+#aboutme img{
+    border-radius: 50%;
+}
+
+#aboutme h1{
+    color:  #3D7363;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#aboutme p{
+    font-size: 25px;
+}
+#header .lead{
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+#header h1{
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+#education{
+    background-color: #75BF8F;
+}
+#education h2{
+    text-align: center;
+    color: #2D5955;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+#education p,h3{
+    color: white;
+    font-family: Merriweather;
+    font-weight: bold;
+}
+.feature p{
+    font-weight: 500;
+}
+.feature-icon{
+    background-color: #E3F2C1;
+}
+.card-text {
+    font-family: Merriweather;
+    font-size: x-large;
+    color: #2D5955;
+    text-align: center;
+}
+.card-img-top {
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+#workex h2{
+    text-align: center;
+    color: #2D5955;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+#contactme{
+    background-color: #2D5955;
+    color: white;
+}
+#contactme h2{
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+}
+.feat{
+    text-align: center;
+}
